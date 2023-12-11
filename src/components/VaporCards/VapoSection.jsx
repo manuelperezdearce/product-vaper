@@ -21,7 +21,7 @@ export default function VapoSection() {
             <section name="mainVapoSection" className="flex flex-col gap-20"
 
             >
-                <h3 className="py-10 text-white font-black text-7xl bg-gradient-to-r drop-shadow-[0px_10px_3px_rgba(0,0,0,0.5)] from-red-700  via-cyan-900 to-purple-700">NEXPOD STICK VAPE</h3>
+                <h3 className="py-10 text-white font-black text-7xl bg-gradient-to-r drop-shadow-[0px_10px_3px_rgba(0,0,0,0.5)] from-red-700  via-cyan-900 to-purple-700">NEXPOD STICK <br /> <span className="text-fuchsia-600">VAPE</span></h3>
                 <div role="button" className="flex mx-auto justify-center items-center group/vapos "
                     onClick={e => handleActive(e)}
                 >

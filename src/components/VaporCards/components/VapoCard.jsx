@@ -6,7 +6,7 @@ export default function VapoCard({ handleActive }) {
         <div className="z-30 top-0 left-0 w-full min-h-screen flex flex-col justify-center items-center absolute bg-[rgba(0,0,0,0.5)] backdrop-blur-[9px]">
             <div className="w-[310px] md:w-[700px] bg-slate-100 bg-opacity-40 p-5 rounded-3xl flex flex-wrap items-center justify-center group/card z-40 relative" >
 
-                <button name="btnCloseCard" role="button" className="text-white text-sm bg-purple-700 rounded-full aspect-square w-8 h-8 p-1 group absolute top-2 right-2" onClick={handleActive} > X</button>
+                <button name="btnCloseCard" role="button" className="z-20 text-white text-sm bg-purple-700 rounded-full aspect-square w-8 h-8 p-1 group absolute top-2 right-2" onClick={handleActive} > X</button>
 
                 <div className="w-full md:w-1/2 min-h-[400px]  flex items-center justify-center relative">
                     <div className="duration-200 group-hover/card:-translate-x-10 group-hover/card:translate-y-12 group-hover/card:rotate-45 relative">
